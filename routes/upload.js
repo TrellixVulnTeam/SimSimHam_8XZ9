@@ -11,6 +11,11 @@ function upload(app , upload) {
 
     app.post('/upload/file', upload.single('file'), function(req, res){
         console.log(req.file);
-        res.send("http://soylatte.kr:8080/"+req.file.filename);
+
+        var returnData ={
+            "imageUrl":"http://soylatte.kr:8080/"+req.file.filename,
+            "visionResult":null
+        }
+        res.send(returnData);
     });
 }
