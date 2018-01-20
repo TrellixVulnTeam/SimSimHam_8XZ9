@@ -95,7 +95,7 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
 
                                     var returnData ={
                                         "imageUrl":"http://soylatte.kr:8080/"+returnName,
-                                        "picture":"http://soylatte.kr:8080/".req.file.name,
+                                        "picture":"http://soylatte.kr:8080/"+req.file.name,
                                         "visionResult":data["items"][0]["title"],
                                         "rank":rank,
                                         "search":data["items"][0]
