@@ -19,7 +19,7 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
         var randomImg = randomstring.generate()+".jpg";
         console.log(req.file.path);
         gm("./"+req.file.path)
-            .resize(100, 200)
+            .resize(320, 180)
             .write(randomImg, function (err) {
                 if (err) console.error(err)
                 else{
