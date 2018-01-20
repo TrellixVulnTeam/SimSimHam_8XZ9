@@ -64,8 +64,25 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
                                     data["items"][0]["description"] = data["items"][0]["description"].replace(/<\/b>/gi,"");
 
                                     data["items"][0]["description"] = data["items"][0]["description"].substring(0,65) + "....";
+
+                                    if(data["items"][0]["title"] == "쏠배감펭"){
+                                        var returnName = "느금마.jpg";
+                                    }
+                                    else if(data["items"][0]["title"] == "오마르"){
+                                        var returnName = "가재.jpg"
+                                    }
+                                    else if(data["items"][0]["title"] == "해파리"){
+                                        var returnName = "해파리.jpg";
+                                    }
+                                    else if(data["items"][0]["title"] == "불가사리"){
+                                        var returnName = "불가사리.jpg";
+                                    }
+                                    else if(data["items"][0]["title"] == "상어"){
+                                        var returnName = "상어.jpg";
+                                    }
+
                                     var returnData ={
-                                        "imageUrl":"http://soylatte.kr:8080/"+req.file.filename,
+                                        "imageUrl":"http://soylatte.kr:8080/"+returnName,
                                         "visionResult":data["items"][0]["title"],
                                         "search":data["items"][0]
                                     }
