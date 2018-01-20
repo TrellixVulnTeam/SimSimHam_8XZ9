@@ -85,12 +85,19 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
                                         var returnName = "상어.jpg";
                                         var rank = "플래티넘"
                                     }
+                                    else if(data["items"][0]["title"] == "바다거북"){
+                                        var returnName = "바다거북.jpg";
+                                        var rank = "골드"
+                                    }
+                                    else{
+
+                                    }
 
                                     var returnData ={
                                         "imageUrl":"http://soylatte.kr:8080/"+returnName,
                                         "visionResult":data["items"][0]["title"],
-                                        "search":data["items"][0],
-                                        "rank":rank
+                                        "rank":rank,
+                                        "search":data["items"][0]
                                     }
                                     res.send(returnData);
                                 });
