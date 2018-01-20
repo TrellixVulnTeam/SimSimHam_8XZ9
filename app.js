@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var request = require('request');
 var multer = require('multer');
+const vision = require('@google-cloud/vision');
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads/')
@@ -30,6 +31,24 @@ var upload = multer({ 'storage': storage})
 
 var app = express();
 
+const Storage = require('@google-cloud/storage');
+
+const storge = Storage({
+    keyFilename: 'all-blue-375cb13ad77d.json'
+});
+
+// Makes an authenticated API request.
+storge.getBuckets().then((results) => {
+    const buckets = results[0];
+    console.log('Buckets:');
+    buckets.forEach((bucket) => {
+        console.log(bucket.name);
+    });
+})
+.catch((err) => {
+    console.error('ERROR:', err);
+});
+
 // view engine setup
 
 app.set('views', path.join(__dirname, 'views'));
@@ -46,8 +65,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'uploads')));
 
-require('./routes/upload')(app , upload);
+require('./routes/upload')(app , upload , request , vision);
 require('./routes/map')(app , request);
+require('./routes/search')(app , request);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -62,8 +82,8 @@ app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
+  // render the error page;
+  res.status(err.status || 500)
 });
 
 module.exports = app;
