@@ -66,11 +66,11 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
                                     data["items"][0]["description"] = data["items"][0]["description"].substring(0,65) + "....";
 
                                     if(data["items"][0]["title"] == "쏠배감펭"){
-                                        var returnName = "느금마.jpg";
+                                        var returnName = "느금마.jpeg";
                                         var rank = "실버";
                                     }
                                     else if(data["items"][0]["title"] == "오마르"){
-                                        var returnName = "가재.jpg"
+                                        var returnName = "가재.jpeg"
                                         var rank = "플래티넘";
                                     }
                                     else if(data["items"][0]["title"] == "해파리"){
@@ -78,7 +78,7 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
                                         var rank = "브론즈";
                                     }
                                     else if(data["items"][0]["title"] == "불가사리"){
-                                        var returnName = "불가사리.jpg";
+                                        var returnName = "불가사리.jpeg";
                                         var rank = "실버";
                                     }
                                     else if(data["items"][0]["title"] == "상어"){
@@ -86,7 +86,7 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
                                         var rank = "플래티넘"
                                     }
                                     else if(data["items"][0]["title"] == "바다거북"){
-                                        var returnName = "바다거북.jpg";
+                                        var returnName = "바다거북.jpeg";
                                         var rank = "골드"
                                     }
                                     else{
