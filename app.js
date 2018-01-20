@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 var request = require('request');
 var multer = require('multer');
+var gm = require('gm');
+var randomstring = require('randomstring');
 const vision = require('@google-cloud/vision');
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -66,7 +68,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'uploads')));
 
-require('./routes/upload')(app , upload , request , vision , translate);
+require('./routes/upload')(app , upload , request , vision , translate , gm , randomstring);
 require('./routes/map')(app , request);
 require('./routes/search')(app , request);
 
