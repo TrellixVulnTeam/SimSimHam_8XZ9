@@ -26,6 +26,7 @@ const storage = multer.diskStorage({
         cb(null,year+"."+month+"."+dt+"."+hour+"."+min+"."+sec+"."+file.originalname)
     }
 })
+const translate = require('google-translate-api');
 
 var upload = multer({ 'storage': storage})
 
@@ -65,7 +66,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'uploads')));
 
-require('./routes/upload')(app , upload , request , vision);
+require('./routes/upload')(app , upload , request , vision , translate);
 require('./routes/map')(app , request);
 require('./routes/search')(app , request);
 
