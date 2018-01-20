@@ -67,24 +67,30 @@ function upload(app , upload , request , vision , translate , gm , randomstring)
 
                                     if(data["items"][0]["title"] == "쏠배감펭"){
                                         var returnName = "느금마.jpg";
+                                        var rank = "실버";
                                     }
                                     else if(data["items"][0]["title"] == "오마르"){
                                         var returnName = "가재.jpg"
+                                        var rank = "플래티넘";
                                     }
                                     else if(data["items"][0]["title"] == "해파리"){
                                         var returnName = "해파리.jpg";
+                                        var rank = "브론즈";
                                     }
                                     else if(data["items"][0]["title"] == "불가사리"){
                                         var returnName = "불가사리.jpg";
+                                        var rank = "실버";
                                     }
                                     else if(data["items"][0]["title"] == "상어"){
                                         var returnName = "상어.jpg";
+                                        var rank = "플래티넘"
                                     }
 
                                     var returnData ={
                                         "imageUrl":"http://soylatte.kr:8080/"+returnName,
                                         "visionResult":data["items"][0]["title"],
-                                        "search":data["items"][0]
+                                        "search":data["items"][0],
+                                        "rank":rank
                                     }
                                     res.send(returnData);
                                 });

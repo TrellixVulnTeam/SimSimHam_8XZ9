@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6599e928-5bc3-42d7-9776-106070e7238e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/09-10 10;18;43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.20.19.2.19.09-10 10;18;43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.20.19.48.6.니모.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.47.22.09-10 10;18;43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.50.54.해파리.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.52.52.해파리.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.53.12.상어.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.53.55.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.0.54.20.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.2.5.8.고래.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.53.54.09-10 10;18;43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.54.31.니모.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.55.45.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.58.0.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.58.37.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.58.58.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.3.59.58.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.4.0.15.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.4.1.30.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.5.20.47.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.6.42.30.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.11.24.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.12.3.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.12.55.고래.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.13.45.해파리.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.9.43.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.0.21.7.9.7.ㄹㅁㅇㄴ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2018.1.30.니모.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2071.니모.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2106.banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/2167.09-10 10;18;43.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/upload.js" afterPath="$PROJECT_DIR$/routes/upload.js" />
     </list>
@@ -65,8 +34,8 @@
       <file leaf-file-name="upload.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="80" column="66" lean-forward="true" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
+            <state relative-caret-position="341">
+              <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -337,12 +306,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516439634279</updated>
-      <workItem from="1516439635682" duration="18434000" />
+      <workItem from="1516439635682" duration="18585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18434000" />
+    <option name="totallyTimeSpent" value="18585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -494,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="80" column="66" lean-forward="true" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
+        <state relative-caret-position="341">
+          <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
